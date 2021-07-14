@@ -3,15 +3,19 @@
     <title>My First JS</title>
     <script type="text/javascript">
 
-        var data1 = 11;
-        
-        if (data1 == 9){
-            document.write("크다");
-        } else if (data1 == 10) {
-            document.write("같다");
-        } else if (data1 == 11) {
-            document.write("작다");
-        }
+    var value = 'Orange1'
+
+    switch(value){
+        case 'Apple':
+            document.write('Apple' + '<br>');
+        break;
+        case 'Orange':
+            document.write('Orange' + '<br>');
+        break;
+        default:
+            document.write('일치항목없음')
+        break;
+    }
 
     </script>
 </head>
